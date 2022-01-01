@@ -1,0 +1,16 @@
+/* Made by Dinand Rijnaars */
+body {
+    color: white;
+    background-color: rgb(19, 19, 56)
+}
+header {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+main {
+    color: rgb(204, 29, 204);
+    border-style: groove    ;
+    border-top-color: rgb(255, 255, 66);
+    border-bottom-color: rgb(255, 255, 66);
+    border-width: 10px;
+}

@@ -1,0 +1,186 @@
+/* BACKGROUNDS */
+
+.hoofdpagina {
+    background-image: url(../images/hoofdpagina.jpg);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.submenu_vroeger {
+    background-image: url(../images/submenu_vroeger.jpg);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.submenu_nu {
+    background-image: url(../images/submenu_nu.jpg);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.vriendenboekje_vroeger {
+    background-image: url(../images/vriendenboekje_vroeger.jpg);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.vriendenboekje_nu {
+    background-image: url(../images/vriendenboekje_nu.jpg);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* HOOFDPAGINA */
+
+.fullscreen {
+    width: 100%;
+    height: 100vh;
+}
+.vroeger {
+    width: 50%;
+    height: 100vh;
+    display: block;
+    float: left;
+    opacity: 0;
+    transition: opacity 200ms ease 0s;
+}
+.vroeger:hover {
+    background-color: white;
+    opacity: 0.2;
+}
+.nu {
+    width: 50%;
+    height: 100vh;
+    display: block;
+    float: right;
+    opacity: 0;
+    transition: opacity 200ms ease 0s;
+}
+.nu:hover {
+    background-color: white;
+    opacity: 0.2;
+}
+
+/* SUBMENU VROEGER */
+
+.submenu_vroeger_fullscreen {
+    width: 100%;
+    height: 100vh;
+}
+.submenu_vroeger_left {
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+.submenu_vroeger_right {
+    width: 50%;
+    height: 100vh;
+    float: right;
+}
+
+/* SUBMENU NU */
+
+.submenu_nu_fullscreen {
+    width: 100%;
+    height: 100vh;
+}
+.submenu_nu_left {
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+.submenu_nu_right {
+    width: 50%;
+    height: 100vh;
+    float: right;
+}
+
+/* SUBMENU BUTTONS */
+
+.hoofdpagina_button {
+    position: relative; top: 75%;
+    width: 250px;
+    height: 75px;
+    display: block;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 3px solid white;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    line-height: 300%;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.vriendenboekje_vroeger_button {
+    position: relative; top: 75%;
+    width: 250px;
+    height: 75px;
+    display: block;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 3px solid white;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    line-height: 300%;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.vriendenboekje_nu_button {
+    position: relative; top: 75%;
+    width: 250px;
+    height: 75px;
+    display: block;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 3px solid white;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    line-height: 300%;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* VRIENDENBOEKJE */
+
+.vriendenboekje_fullscreen {
+    width: 100%;
+    height: 100vh;
+}
+.terug_button {
+    position: relative; top: 0%;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 200px;
+    height: 50px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 3px solid white;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    line-height: 210%;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}

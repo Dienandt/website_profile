@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'agan';
+    src: url('../fonts/agane_65_bold_sign.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+   font-family: 'agan';
+   font-size:28px;
+   padding:2em;
+   color:white;
+}
+
+#bg{
+	position:fixed;
+	z-index: -1;
+	inset:0;
+	background-color: rgb(150, 123, 123);
+	background-image:url('../images/background.jpg');
+	background-size: cover;
+}
+
+.grid{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 2em;
+}
+.grid>*{
+	height: 10em;
+	width: 15em;
+	object-fit: contain;
+	margin:0 auto;
+}

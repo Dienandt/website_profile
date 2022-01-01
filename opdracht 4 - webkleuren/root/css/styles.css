@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+div {
+    width: 100px;
+    height: 100px;
+}
+.White {
+    background-color: white;
+}
+.Nyanza {
+    background-color: #E5F9E0;
+}
+.GrannySmithApple {
+    background-color: rgb(163, 247, 181);
+}
+.ViridianGreenRoseEbonyGradient {
+    background: linear-gradient(to bottom, #2F9C95 0%, #664147 100%);
+}
+.RoseEbony {
+    background-color: rgba(102, 65, 71, 0.5);
+}
